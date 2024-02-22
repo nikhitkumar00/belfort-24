@@ -5,12 +5,12 @@ const Registration = () => {
   return (
     <div className="flex flex-col justify-center gap-12 md:flex-row md:justify-between">
       <Image
-        src="/images/poster.jpg"
+        src="/images/belfort.png"
         alt="Poster"
         width={640}
         height={640}
         priority
-        className="mx-auto h-auto w-[60vw] max-w-72 object-contain lg:max-w-96"
+        className="contrast-105 mx-auto h-auto w-[60vw] max-w-72 object-contain brightness-125 lg:max-w-96"
       />
 
       <div className="flex w-full items-center justify-center">
@@ -24,13 +24,13 @@ const Registration = () => {
               <span className="whitespace-nowrap">closes on</span>
             </span>
             <span className="flex flex-wrap font-tertiary text-[5vw] font-medium tracking-wider text-white md:text-[64px]">
-              <span className="whitespace-nowrap">FEB 25,&nbsp;</span>
+              <span className="whitespace-nowrap">FEB 24,&nbsp;</span>
               <span>2024</span>
             </span>
           </div>
           <button
             onClick={() =>
-              window.open("https://forms.gle/8iPpCs3xeVsWq8gV8", "_blank")
+              window.open("https://docs.google.com/forms/d/e/1FAIpQLSd4KnimxwasGgDVW_EZJgrl8G2m3_yxPj9Tii0_FHMfs86yPQ/viewform", "_blank")
             }
             className="w-full rounded-lg bg-primary px-6 py-3 font-secondary text-lg text-dark hover:bg-tertiary sm:text-xl md:text-2xl xl:text-3xl"
           >

@@ -39,10 +39,10 @@ const Connect = () => {
                 priority
               />
               <CustomLink
-                href="mailto:rackncrackcce@gmail.com"
+                href="mailto:iedc@cce.edu.in"
                 className="font-tertiary text-xl font-semibold hover:text-tertiary md:text-2xl xl:text-3xl"
               >
-                rackncrackcce@gmail.com
+                iedc@cce.edu.in
               </CustomLink>
             </div>
             <div className="flex gap-4 self-center">
@@ -55,17 +55,10 @@ const Connect = () => {
               />
               <div className="flex flex-wrap font-tertiary text-lg font-extrabold md:text-xl xl:text-2xl">
                 <CustomLink
-                  href="tel:+91 7736604422"
+                  href="tel:+91 9207671971"
                   className="whitespace-nowrap hover:text-tertiary"
                 >
-                  +91 7736604422
-                </CustomLink>
-                ,&nbsp;
-                <CustomLink
-                  href="tel:+91 9544197029"
-                  className="whitespace-nowrap hover:text-tertiary"
-                >
-                  +91 9544197029
+                  +91 9207671971
                 </CustomLink>
               </div>
             </div>
@@ -92,29 +85,15 @@ const SocialConnect = () => {
               onClick={() => window.open("https://cce.edu.in", "_blank")}
             />
             <Image
-              src="/logos/race-logo.png"
+              src="/logos/iedc.png"
               width={264}
               height={264}
-              alt="Race Logo"
+              alt="IEDC Logo"
               priority
-              className="size-16 sm:size-20"
+              className="size-16 object-cover sm:size-20"
               onClick={() =>
                 window.open(
                   "https://cce.edu.in/department/associations/2",
-                  "_blank",
-                )
-              }
-            />
-            <Image
-              src="/logos/iei-logo.png"
-              width={264}
-              height={264}
-              alt="IEI Logo"
-              priority
-              className="size-16 sm:size-20"
-              onClick={() =>
-                window.open(
-                  "https://www.ieindia.org/webui/iei-home.aspx",
                   "_blank",
                 )
               }

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <SectionLayout full>
+      <SectionLayout>
         <About />
       </SectionLayout>
 

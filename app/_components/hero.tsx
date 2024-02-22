@@ -14,7 +14,7 @@ const Hero = () => {
               <span className="text-primary">2024</span>
             </span>
             <div className="text-center text-8xl font-extralight uppercase">
-              <div>Belfort of</div>{" "}
+              <div>The Belfort of</div>{" "}
               <div className="font-black text-primary">Wallstreet</div>
             </div>
             <span className="text-center font-secondary text-2xl lowercase tracking-wider text-primary">
