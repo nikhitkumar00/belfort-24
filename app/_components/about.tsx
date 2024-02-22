@@ -5,21 +5,19 @@ const About = () => {
     <div className="flex flex-col gap-4 px-6 pb-12 pt-10 text-right font-secondary text-secondary sm:px-12 sm:pt-20 md:pb-16 lg:px-16 lg:pb-24 xl:px-32 2xl:px-48">
       <CustomText title className="self-end">
         what is&nbsp;
-        <CustomText highlightedTitle>rack and crack</CustomText>?
+        <CustomText highlightedTitle>belfort of wallstreet</CustomText>?
       </CustomText>
 
       <CustomText description>
-        An in-person action packed&nbsp;
-        <CustomText highlightedDescription>design hackathon&nbsp;</CustomText>
-        where students and aspiring designers are given a platform to experience
+        <CustomText highlightedDescription>Belfort of Wall Street</CustomText>{" "}
+        by IEDC CCE, is where innovation meets entrepreneurship in a thrilling
+        competition aimed at transforming ideas into impactful ventures. Through
+        three dynamic rounds -{" "}
         <CustomText highlightedDescription>
-          &nbsp;real-life design problems
-        </CustomText>
-        &nbsp;and master the art of creating&nbsp;
-        <CustomText highlightedDescription>
-          usable, viable, and empathetic design solutions
-        </CustomText>
-        &nbsp;while having a great deal of fun for 12 hours straight.
+          Ideation, Prototyping and Business Pitching, and Marketing
+        </CustomText>{" "}
+        participants showcase their creativity, business acumen, and marketing
+        prowess.
       </CustomText>
     </div>
   );

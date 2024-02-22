@@ -3,17 +3,13 @@ import { cutoutCity } from "@/public/fonts";
 
 const Guidelines = () => {
   const guidelines = [
-    "A team can include maximum 3 members",
-    "Apply for the event and send us the abstract of your idea. You may also send images, videos to substantiate your abstract.",
-    "Selected teams will be intimated and they can present the idea before the evaluation panel on 9th March 2024",
-    "College ID card is mandatory for participation",
-    "Decision of the judges will be final",
+    "Each team must consist of 3 to 4 members, and each members must be enrolled in any Undergraduate or Postgraduate Degree Programme. ( Students of MCA/IMCA are also permitted ).",
+    "Ethical conduct is expected, and plagiarism or using pre-existing solutions without acknowledgment is strictly prohibited. Participants are supposed to bring their own gadgets as in Laptops and mobile phones for presentation creation and surfing. They are also requested to bring their own network providers.",
+    "We will not be responsible for any network issues. Dinner and Breakfast will be provided on 28th and 29th respectively for the teams that proceeds to the next rounds.",
   ];
   return (
     <div className="flex w-full flex-col items-start justify-center gap-12 font-primary text-secondary">
-      <CustomText title>
-        RULES AND&nbsp;<CustomText highlightedTitle>Regulations</CustomText>
-      </CustomText>
+      <CustomText highlightedTitle>Guidelines</CustomText>
 
       <div className="mb-6 flex w-full flex-col gap-6 sm:mb-12 sm:items-start lg:mb-0">
         {guidelines.map((text, index) => (
@@ -30,7 +26,7 @@ const Guidelines = () => {
 
       <div className="ml-auto flex w-fit justify-center rounded-xl border border-primary bg-primary bg-opacity-10 px-6 py-2 sm:min-w-80 sm:px-12 sm:py-4">
         <span className="text-center font-secondary text-xl lowercase tracking-wider text-primary sm:text-2xl">
-          Venue of finale : Crowne Plaza, Cochin
+          Venue : Christ College of Engineering
         </span>
       </div>
     </div>

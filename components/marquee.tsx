@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
@@ -16,7 +15,7 @@ const TextMarquee = () => {
         priority
         className="m-3 fill-dark"
       />
-      <span className="px-2">Rack and Crack</span>
+      <span className="px-2 uppercase">Belfort of Wallstreet</span>
     </Marquee>
   );
 };

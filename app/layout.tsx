@@ -5,7 +5,7 @@ import Copyright from "@/components/copyright";
 import { Connect, SocialConnect } from "@/components/connect";
 
 export const metadata: Metadata = {
-  title: "Rack and Crack",
+  title: "Bellfort of Wallstreet",
   description:
     "Rack and Crack conducted as a part of Tech Fest organized by Christ College of Engineering, Irinjalakuda",
 };
