@@ -15,7 +15,7 @@ const TextMarquee = () => {
         priority
         className="m-3 fill-dark"
       />
-      <span className="px-2 uppercase">Belfort of Wallstreet</span>
+      <span className="px-2 uppercase">The Belfort of Wallstreet</span>
     </Marquee>
   );
 };
