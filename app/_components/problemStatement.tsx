@@ -14,7 +14,7 @@ const Round = () => {
     },
     {
       qn: "Marketing",
-      ans: "Round 3 of the Belfort of Wall Street 2024 , will be conducted in an open area mode at Christ college of Engineering campus. All the selected teams have to be present at the campus where the audience will be your customer. Participants will have to interact with the audience and market their ideas/products. The winner of this round will be decided by audience poll.",
+      ans: "Round 3 of the The Belfort of Wall Street 2024, will be conducted in an open area mode at Christ college of Engineering campus. All the selected teams have to be present at the campus where the audience will be your customer. Participants will have to interact with the audience and market their ideas/products. The winner of this round will be decided by audience poll.",
       date: "February 29",
     },
   ];

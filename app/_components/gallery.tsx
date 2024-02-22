@@ -55,7 +55,7 @@ const Gallery = () => {
         <span className="text-primary">memories&nbsp;</span>we{" "}
         <span className="whitespace-nowrap">have created</span>
       </div>
-      <Marquee pauseOnHover autoFill className="z-0 p-10 ">
+      <Marquee pauseOnHover autoFill className="z-1 p-10 ">
         {images.map((image, index) => (
           <div className="h-48" key={index}>
             <Image
