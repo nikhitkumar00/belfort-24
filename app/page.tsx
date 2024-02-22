@@ -3,6 +3,8 @@ import SectionLayout from "@/layouts/section-layout";
 import Guidelines from "./_components/guidlines";
 import ProblemStatement from "./_components/problemStatement";
 import Gallery from "./_components/gallery";
+import Contact from "./_components/Contact";
+import Map from "./_components/Map";
 
 export default function Home() {
   return (
@@ -27,6 +29,12 @@ export default function Home() {
       <SectionLayout full gapless>
         <Gallery />
       </SectionLayout>
+
+      <SectionLayout>
+        <Map />
+      </SectionLayout>
+
+      <Contact />
     </>
   );
 }
