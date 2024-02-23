@@ -5,7 +5,9 @@ const About = () => {
     <div className="flex flex-col gap-4 text-right font-secondary text-secondary">
       <CustomText title>
         what is&nbsp;
-        <CustomText highlightedTitle>the belfort of wallstreet?</CustomText>
+        <CustomText className="text-wrap text-left" highlightedTitle>
+          the belfort of wallstreet?
+        </CustomText>
       </CustomText>
 
       <CustomText description>

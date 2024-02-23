@@ -51,11 +51,11 @@ const Gallery = () => {
   return (
     <div className="py-12 sm:py-20 lg:py-24 xl:py-32">
       <div className="text-normal px-4 pb-4 text-center font-secondary text-3xl sm:px-12 sm:text-4xl md:text-5xl lg:px-16 lg:text-6xl xl:px-32 2xl:px-48">
-        glipmse into the&nbsp;
+        Glimpse into the&nbsp;
         <span className="text-primary">memories&nbsp;</span>we{" "}
         <span className="whitespace-nowrap">have created</span>
       </div>
-      <Marquee pauseOnHover autoFill className="z-1 p-10 ">
+      <Marquee autoFill className="z-1 p-10 ">
         {images.map((image, index) => (
           <div className="h-48" key={index}>
             <Image

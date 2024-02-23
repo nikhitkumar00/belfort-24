@@ -32,7 +32,7 @@ const Round = () => {
             <span>{statement.qn}</span>
           </div>
           <CustomText description>
-            <span className="opacity-85">{statement.ans}</span>
+            <span className="font-semibold opacity-85">{statement.ans}</span>
           </CustomText>
         </div>
       ))}

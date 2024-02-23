@@ -30,7 +30,10 @@ const Registration = () => {
           </div>
           <button
             onClick={() =>
-              window.open("https://docs.google.com/forms/d/e/1FAIpQLSd4KnimxwasGgDVW_EZJgrl8G2m3_yxPj9Tii0_FHMfs86yPQ/viewform", "_blank")
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLSd4KnimxwasGgDVW_EZJgrl8G2m3_yxPj9Tii0_FHMfs86yPQ/viewform",
+                "_blank",
+              )
             }
             className="w-full rounded-lg bg-primary px-6 py-3 font-secondary text-lg text-dark hover:bg-tertiary sm:text-xl md:text-2xl xl:text-3xl"
           >

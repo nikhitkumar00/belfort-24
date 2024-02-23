@@ -13,11 +13,11 @@ const Hero = () => {
               28, 29 FEB &nbsp;
               <span className="text-primary">2024</span>
             </span>
-            <div className="text-center text-8xl font-extralight uppercase">
+            <div className="text-center text-3xl font-extralight uppercase sm:text-6xl md:text-7xl lg:text-8xl">
               <div>The Belfort of</div>{" "}
               <div className="font-black text-primary">Wallstreet</div>
             </div>
-            <span className="text-center font-secondary text-2xl lowercase tracking-wider text-primary">
+            <span className="text-center font-secondary text-md lowercase tracking-wider text-primary md:text-2xl">
               Ideate . design . develop . test . pitch
             </span>
           </div>
