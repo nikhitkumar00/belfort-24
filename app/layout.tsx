@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logos/rack-and-crack.svg" />
+        <link rel="icon" href="../public/icons/favicon.ico" />
         <link
           href="https://uploads-ssl.webflow.com/6408bea3de5aef58b7e197d4/css/diagramwf.webflow.c946343f1.min.css"
           rel="stylesheet"
