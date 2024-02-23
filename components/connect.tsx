@@ -126,13 +126,13 @@ const SocialConnect = () => {
 
           <div className="flex gap-6">
             <CustomLink
-              href="https://www.instagram.com/race_cce/"
+              href="https://www.instagram.com/iedc_cceijk"
               className="h-16 w-16 rounded-full bg-white p-4 hover:bg-tertiary"
             >
               <SocialIcon logo="instagram" />
             </CustomLink>
             <CustomLink
-              href="https://www.linkedin.com/school/christcollegeofengineering/"
+              href="https://www.linkedin.com/company/iedccce/"
               className="h-16 w-16 rounded-full bg-white p-4 hover:bg-tertiary"
             >
               <SocialIcon logo="linkedin" />
